@@ -4,5 +4,10 @@
   "description": "eCommerce PWA Built with NextJS and GraphCMS",
   "main": "index.js",
   "repository": "https://github.com/chopisal/bong-store",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
 }
