@@ -24,6 +24,18 @@ export default ({data}) => (
           Add to cart(${data.product.price})
         </AntButton>
       </div>
+      <style jsx>{`
+        .product {
+          display: gird;
+          margin: 50px 0px;
+          padding: 0px 50px;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 50px;
+        }
+        .product img {
+          max-width: 100%
+        }
+      `}</style>
     </div>
   </>
 );
